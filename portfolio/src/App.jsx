@@ -284,7 +284,7 @@ function App() {
               About Me
             </a>
             <a className="rounded-full border border-slate-300 px-4 py-2 transition hover:border-slate-400 hover:text-slate-900" href="#process">
-              How I Work
+              Work Experience
             </a>
             <a className="rounded-full border border-slate-300 px-4 py-2 transition hover:border-slate-400 hover:text-slate-900" href="#case-studies">
               Case Studies
@@ -335,10 +335,10 @@ function App() {
         <section className="grid gap-6 lg:grid-cols-1">
           <article className="spotlight-container rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-colors duration-300 hover:border-blue-300 hover:bg-blue-50" id="process">
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
-              How I Work
+              Work Experience
             </p>
             <p className="mt-4 text-base leading-7 text-slate-600">
-              I'm currently taking a UI design course (SEG 3125). We're learning about different design elements related to UI and UX. References:
+              I have no UI work experience yet, but I'm currently taking a UI design course (SEG 3125). We're learning about different design elements related to UI and UX. References:
             </p>
             <div className="mt-6 flex flex-wrap gap-3 text-sm">
               {studyLinks.map((link) => (
