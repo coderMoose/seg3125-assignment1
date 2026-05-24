@@ -6,8 +6,10 @@ import './App.css'
 
 function App() {
   return (
-    <div>
-      <h1>Beep boop!</h1>
+    <div className="h-screen flex items-center justify-center bg-black">
+      <h1 className="text-5xl font-bold text-white">
+        Beep Boop
+      </h1>
     </div>
   )
 }
